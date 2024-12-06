@@ -1,0 +1,11 @@
+@import 'fontscss/fontawesome.min.css';
+@import 'fontscss/montserrat.css';
+@import 'reset/reset.css';
+@import 'reset/header.css';
+
+/*BLOCOS*/
+@import 'blocos/curriculo.css';
+@import 'blocos/certificados.css';
+
+/*FOOTER*/
+@import 'reset/footer.css';

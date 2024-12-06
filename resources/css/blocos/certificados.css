@@ -1,0 +1,111 @@
+.certificados
+{
+	padding-bottom: 60px;
+	width: 100%;
+	display: block;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.certificados .container
+{
+	max-width: 1490px;
+}
+.certificados .conteudo{
+	width: 100%;
+	padding-top: 35px;
+}
+.certificados .conteudo .descicao
+{
+	max-width: 690px;
+	display: block;
+	margin: 0 auto 25px;
+}
+.certificados .conteudo .itens
+{
+	width: 100%;
+}
+.certificados .conteudo .itens .item
+{
+	width: 100%;
+	display: inline-block;
+	transition: .4s;
+	padding: 25px;
+}
+.certificados .conteudo .itens .item:hover{
+	transform: scale(1.1);
+}
+.item a
+{
+	width: 100%;
+	display: block;
+	transition: .4s;
+}
+.certificados .conteudo .itens .item a .img,
+.certificados .conteudo .itens .item a .img img
+{
+	width: 100%;
+	display: block;
+	padding-top: 25px;
+}
+.certificados .conteudo .itens .item a .informacoes
+{
+	background-color: #000;
+	padding: 20px;
+	margin: 0px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	flex-wrap: wrap;
+}
+.certificados .conteudo .itens .item a .informacoes .data
+{
+	position: absolute;
+	right: 0;
+	top: -30px;
+	line-height: 30px;
+	width: max-content;
+	padding: 0 10px;
+	background-color: var(--color-destaque);
+}
+.certificados .conteudo .itens .item a .informacoes .titulo
+{
+	font-size: 18px;
+	line-height: 22px;
+	font-family: var(--font-family-bold);
+	margin-bottom: 25px;
+}
+.certificados .conteudo .itens .item a .informacoes .titulo:after
+{
+	background-color: var(--color-white);
+	bottom: -5px;
+}
+.certificados .conteudo .itens .item a .informacoes .descricao
+{
+	margin-bottom: 25px;
+}
+.certificados .conteudo .itens .item a .informacoes .btn
+{
+	font-size: 20px;
+	color: var(--color-destaque);
+	text-decoration: underline;
+	font-family: var(--font-family-bold);
+	padding: 0px;
+	background-color: transparent;
+	margin: 0;
+	border: 0px;
+	text-transform: initial;
+	transition: .4s;
+}
+.certificados .conteudo .itens .item:hover a .informacoes .btn{
+	transform: scale(1.1);
+	color: #cfcfcf;
+}
+@media only screen and (min-width: 768px)
+{
+	.certificados .conteudo .itens .item
+	{
+		padding: 0px 40px;
+	}	
+}
